@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Container } from "react-bootstrap";
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Button from 'react-bootstrap/Button';
 import './hamburger.css'
@@ -18,7 +18,7 @@ function Hamburger() {
                     key={expand}
                     expand={expand}
                     className="bg-body-tertiary"
-                    // data-bs-theme="dark"
+                    data-bs-theme="dark"
                 >
                     <Container fluid>
                         <Navbar.Brand className="navbarFont" href="#">Davina Dacpano</Navbar.Brand>
@@ -28,20 +28,22 @@ function Hamburger() {
                             id={`offcanvasNavbar-expand-${expand}`}
                             aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
                             placement="end"
-                            // data-bs-theme="dark"
+                            data-bs-theme="dark"
                         >
 
                             <Offcanvas.Header closeButton>
                                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                                    Offcanvas
+                                    More
                                 </Offcanvas.Title>
                             </Offcanvas.Header>
 
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                                    <Nav.Link href="#action1">Home</Nav.Link>
-                                    <Nav.Link href="#action2">Link</Nav.Link>
-                                    <NavDropdown
+                                    <Nav.Link href="#action1">About Me</Nav.Link>
+                                    <Nav.Link href="#action2">Projects</Nav.Link>
+                                    <Nav.Link href=""></Nav.Link>
+
+                                    {/* <NavDropdown
                                         title="Dropdown"
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}
                                     >
@@ -54,7 +56,7 @@ function Hamburger() {
                                         <NavDropdown.Item href="#action5">
                                             Something else here
                                         </NavDropdown.Item>
-                                    </NavDropdown>
+                                    </NavDropdown> */}
                                 </Nav>
 
                                 <Form className="d-flex">
