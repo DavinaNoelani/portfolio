@@ -2,7 +2,7 @@
     background-color: #2d2d2d;
     display: flex;
     flex: 1 1;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .landing-img-container {

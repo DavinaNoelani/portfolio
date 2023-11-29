@@ -1,6 +1,15 @@
-.navbarFont {
+.navbar-brand {
   font-family: 'broadway';
-  color: #ff5050;
+  color:   #ff5050!important;
+  font-size: 2em;
+}
+
+.navbar-bg {
+  background-color: #202020;
+}
+
+.navbar-toggler-icon {
+  background-color: #ff5050!important;
 }
 
 .bg-body-tertiary {

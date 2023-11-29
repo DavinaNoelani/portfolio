@@ -10,7 +10,6 @@ function Landing() {
     return (
         <div className="landing-page">
             
-
             <div className="landing-img-container">
                 <img alt='desktop' src={desktop} className="landing-img" />
             </div>
