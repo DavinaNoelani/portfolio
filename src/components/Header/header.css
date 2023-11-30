@@ -1,17 +1,18 @@
 .landing-header-container {
     margin-top: 25vh;
     color: #ff5050;
-
+    text-align: center;
 }
 
 .landing-header {
     /* font-family: 'Comforter Brush'; */
     font-family: 'Ms Madi';
-    font-size: 10vh;
+    font-size: 5em;
+    
     
 }
 
 .landing-subheader {
     font-family: 'broadway';
-    text-align: center;
+   
 }
