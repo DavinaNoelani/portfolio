@@ -1,0 +1,19 @@
+.skills-container {
+    background-color: #2d2d2d;
+    /* padding: 15%; */
+    color: #ff5050;
+    margin: 50em auto 10em auto;
+    max-width: 900px;
+
+}
+
+.skills-font {
+    /* font-family: 'hp simplified'; */
+    font-family: 'roboto';
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+.skill-icon-container {
+    margin: auto;
+}

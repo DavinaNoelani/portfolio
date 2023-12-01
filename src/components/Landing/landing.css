@@ -44,3 +44,7 @@
 .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
 }
+
+.landing-page {
+    margin-bottom: 15vh;
+}

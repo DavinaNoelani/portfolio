@@ -1,0 +1,48 @@
+.rep-container {
+    margin: 8em auto 0 auto;
+}
+
+/* Testimonials */
+.large {
+    font-family: 'broadway';
+    
+}
+
+.testis {
+    border: 2px solid #f7786b;
+    /* background-color: #808080; */
+    color: #808080;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+    font-family: 'Roboto';
+}
+
+.testis::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.testis img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.testis span {
+    font-size: 2vh;
+    margin-right: 15px;
+}
+
+
+@media (max-width: 500px) {
+    .testis {
+        text-align: center;
+    }
+    .testis img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}
