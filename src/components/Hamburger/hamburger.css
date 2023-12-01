@@ -1,17 +1,33 @@
 .navbar-brand {
-  font-family: 'broadway';
+  font-family: 'Comforter Brush';
   color:   #ff5050!important;
-  font-size: 2em;
+  font-size: 2.1em!important;
 }
 
 .navbar-bg {
   background-color: #202020;
 }
 
-.navbar-toggler-icon {
+.navbar-toggler{
   background-color: #ff5050!important;
 }
 
 .bg-body-tertiary {
   background-color: #ff5050;
+}
+.offcanvas-title {
+  font-size: 2.5rem;
+}
+
+.offcanvas-body {
+  background-color: #202020;
+}
+
+.offcanvas-header {
+  font-family: 'broadway';
+  background-color: #202020;
+}
+
+.offcanvas-header .btn-close {
+  background-color: #ff5050!important;
 }

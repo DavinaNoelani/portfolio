@@ -21,8 +21,9 @@ function Hamburger() {
                     className='navbar-bg'               
                 >
                     <Container fluid>
-                        <Navbar.Brand className="navbar-Font" href="#">Davina Dacpano</Navbar.Brand>
+                        <Navbar.Brand className="navbar-Font" href="#">Davina Noelani</Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+                        
 
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}

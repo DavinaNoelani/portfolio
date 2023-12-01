@@ -1,0 +1,19 @@
+.carousel-container {
+    margin: 5em auto 7em auto;
+}
+
+.carousel-img-container {
+    max-width: 300px;
+    margin: auto;
+    width: 100%;
+}
+
+.carousel-img {
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+}
+
+.carousel-indicators {
+    display: none!important;
+}

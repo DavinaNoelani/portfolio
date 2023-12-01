@@ -5,17 +5,19 @@ import Header from "../Header/Header";
 
 function Landing() {
 
-    
+
 
     return (
-        <div className="landing-page">
-            
-            <div className="landing-img-container">
-                <img alt='desktop' src={desktop} className="landing-img" />
-            </div>
+        <>
+            <div className="landing-page">
 
-            <Header />
-        </div>
+                <div className="landing-img-container">
+                    <img alt='desktop' src={desktop} className="landing-img" />
+                </div>
+
+                <Header />
+            </div>
+        </>
     )
 }
 
