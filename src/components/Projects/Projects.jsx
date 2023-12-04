@@ -25,10 +25,10 @@ function Projects() {
                         <img src={DrumMachinePhoto} alt="Drum Machine" style={projectImg} />
                     </div>
 
-                    <Carousel.Caption className="caption">
+                    {/* <Carousel.Caption className="caption">
                         <h3>Drum Machine</h3>
                         <p>Created with React & CSS</p>
-                    </Carousel.Caption>
+                    </Carousel.Caption> */}
 
                 </Carousel.Item>
 
