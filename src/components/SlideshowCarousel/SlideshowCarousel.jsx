@@ -32,7 +32,7 @@ function SlideshowCarousel() {
 
                 </Carousel.Item>
 
-                <Carousel.Item interval={750}>
+                <Carousel.Item interval={1000}>
 
                     <div className="carousel-img-container">
                         <img style={icon} className="carousel-img" src={css} alt='CSS3' />
@@ -40,7 +40,7 @@ function SlideshowCarousel() {
 
                 </Carousel.Item>
 
-                <Carousel.Item interval={750}>
+                <Carousel.Item interval={1000}>
 
                     <div className="carousel-img-container">
                         <img style={icon} className="carousel-img" src={javascript} alt='JavaScript' />
@@ -48,7 +48,7 @@ function SlideshowCarousel() {
 
                 </Carousel.Item>
 
-                <Carousel.Item interval={750}>
+                <Carousel.Item interval={1000}>
 
                     <div className="carousel-img-container">
                         <img style={icon} className="carousel-img" src={reactLogo} alt='React' />
@@ -56,7 +56,7 @@ function SlideshowCarousel() {
 
                 </Carousel.Item>
 
-                <Carousel.Item interval={750}>
+                <Carousel.Item interval={1000}>
 
                     <div className="carousel-img-container">
                         <img style={icon} className="carousel-img" src={bootstrap} alt='Bootstrap' />
@@ -64,7 +64,7 @@ function SlideshowCarousel() {
 
                 </Carousel.Item>
 
-                <Carousel.Item interval={750}>
+                <Carousel.Item interval={1000}>
 
                     <div className="carousel-img-container">
                         <img style={icon} className="carousel-img" src={mongo} alt='Mongo' />
@@ -72,7 +72,7 @@ function SlideshowCarousel() {
 
                 </Carousel.Item>
 
-                <Carousel.Item interval={750}>
+                <Carousel.Item interval={1000}>
 
                     <div className="carousel-img-container">
                         <img style={icon} className="carousel-img" src={nodeJS} alt='Express' />
@@ -80,7 +80,7 @@ function SlideshowCarousel() {
 
                 </Carousel.Item>
 
-                <Carousel.Item interval={750}>
+                <Carousel.Item interval={1000}>
 
                     <div className="carousel-img-container">
                         <img style={icon} className="carousel-img" src={express} alt='Express' />
@@ -88,7 +88,7 @@ function SlideshowCarousel() {
 
                 </Carousel.Item>
 
-                <Carousel.Item interval={750}>
+                <Carousel.Item interval={1000}>
 
                     <div className="carousel-img-container">
                         <img style={icon} className="carousel-img" src={sass} alt='Sassy CSS' />

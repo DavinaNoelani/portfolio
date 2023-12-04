@@ -1,15 +1,35 @@
 .navbar-brand {
   font-family: 'Comforter Brush';
-  color:   #ff5050!important;
-  font-size: 2.1em!important;
+  color: #ff5050 !important;
+  font-size: 2.1em !important;
 }
 
 .navbar-bg {
   background-color: #202020;
 }
 
-.navbar-toggler{
-  background-color: #ff5050!important;
+.icon-anchor:hover {
+  opacity: 0.8;
+}
+
+.social-container {
+  position: absolute;
+  right: 5%;
+  max-width: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.git {
+  width: 34px!important;
+  height: 34px!important;
+  align-items: center;
+}
+
+.navbar-toggler {
+  background-color: #ff5050 !important;
 }
 
 .bg-body-tertiary {
@@ -31,5 +51,12 @@
 }
 
 .offcanvas-header .btn-close {
-  background-color: #ff5050!important;
+  background-color: #ff5050 !important;
+}
+
+@media screen and (max-width:400px) {
+  .social-container {
+    right: 20%;
+  }
+
 }

@@ -7,7 +7,7 @@
 
 .landing-img-container {
     max-width: 32vw;
-    max-height: 40vh;
+    max-height: 39vh;
     margin-left: 12.5%;
     background-color: #2d2d2d;
     padding: 25px;
@@ -47,4 +47,19 @@
 
 .landing-page {
     margin-bottom: 15vh;
+}
+
+@media only screen and (max-width: 400px) {
+    .landing-img-container {
+        max-width: 50vh;
+        max-height: 1000px;
+        width: 100%;
+        margin: auto;
+        
+    }
+
+    .landing-page {
+        flex-direction: column;
+        
+    }
 }

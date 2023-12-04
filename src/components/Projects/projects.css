@@ -1,6 +1,19 @@
-.projects-container {
-    margin: 5em auto 12em auto;
+.project-title {
+    color: #ff5050;
+    text-align: center;
+    font-size: 8vh;
+    font-family: 'Ms Madi';
+    margin-top: 1em;
+    /* font-family: 'Comforter brush'; */
+    /* font-family: 'Broadway'; */
+
 }
+
+.projects-container {
+    margin: 6em auto 0 auto;
+}
+
+
 
 .project-img-container {
     max-width: 800px;
@@ -8,68 +21,6 @@
     width: 100%;
 }
 
-.carousel-caption {
-    /* color: #ff5050!important; */
-    color: #f1f1f1!important;
-    /* color: #202020!important; */
-    /* text-align: start!important; */
-}
 
 
-/* card css */
-#projects {
-    padding: 20px;
-    background: linear-gradient(to top, #0d0d0d 0%, #262626 51%);
-    height: 100vh;
-}
 
-.proLink {
-    color: #5411f3;
-    font-family: 'broadway';
-}
-
-.proLink:hover {
-    opacity: 0.5;
-    text-decoration: none;
-}
-
-.project-tile {
-    box-shadow: 4px 4px 7px #000;
-}
-
-.project-tile:hover {
-    opacity: 0.5;
-}
-
-/* flip card projects */
-.flip-card {
-    background-color: transparent;
-    perspective: 1000px;
-}
-
-.flip-card-inner {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-    transform: rotateX(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-}
-
-.flip-card-front {
-    background-color: #bbb;
-    color: #000;
-}
-
-.flip-card-back {
-    transform: rotateX(180deg);
-}
