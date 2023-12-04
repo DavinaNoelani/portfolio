@@ -40,10 +40,10 @@ function Hamburger() {
 
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                                    <Nav.Link href="#action1">About Me</Nav.Link>
-                                    <Nav.Link href="#action2">Projects</Nav.Link>
-                                    <Nav.Link href="#action3">Skills</Nav.Link>
-                                    <Nav.Link href="#action4">Contact Me</Nav.Link>
+                                    <Nav.Link href="#AboutMe">About</Nav.Link>
+                                    <Nav.Link href="#Projects">Projects</Nav.Link>
+                                    <Nav.Link href="#Skills">Skills</Nav.Link>
+                                    <Nav.Link href="#Contact">Contact</Nav.Link>
                           
                                 </Nav>                     
                             </Offcanvas.Body>
