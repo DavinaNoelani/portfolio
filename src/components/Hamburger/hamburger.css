@@ -15,6 +15,7 @@
 .bg-body-tertiary {
   background-color: #ff5050;
 }
+
 .offcanvas-title {
   font-size: 2.5rem;
 }
@@ -26,6 +27,7 @@
 .offcanvas-header {
   font-family: 'broadway';
   background-color: #202020;
+  border-bottom: #202020;
 }
 
 .offcanvas-header .btn-close {
